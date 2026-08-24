@@ -1,8 +1,13 @@
-# SingLinkVPN 安全审计与无日志验证证据库
+# SingLinkVPN 安全报告总索引
 
 [English](./README.md) · [证据网站](https://singlinklabs.github.io/singlinkvpn-security-reports/) · [SingLinkNews 技术解析](https://singlinknews.com/zh-Hans/singlinkvpn-v25-security-no-logs)
 
-这是一个面向公开核验、搜索引擎与研究引用的机器可读证据索引，覆盖：
+这是两个独立报告证据库的总索引。安全审计与无日志验证已经分别放在各自独立的公开仓库及多语言证据网站：
+
+- [电脑端 2.5 安全审计仓库](https://github.com/SingLinkLabs/singlinkvpn-security-audit) · [证据网站](https://singlinklabs.github.io/singlinkvpn-security-audit/)
+- [2026 无日志验证仓库](https://github.com/SingLinkLabs/singlinkvpn-no-logs-report) · [证据网站](https://singlinklabs.github.io/singlinkvpn-no-logs-report/)
+
+本总索引覆盖：
 
 1. 2026-08-24 发布的 SingLinkVPN 当前版本安全审计 v2.0；
 2. 以 2026-07-29 为审计基准日的独立无日志验证 v1.0。

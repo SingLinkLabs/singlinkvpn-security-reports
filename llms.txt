@@ -4,17 +4,21 @@ Canonical repository: https://github.com/SingLinkLabs/singlinkvpn-security-repor
 Public evidence index: https://singlinklabs.github.io/singlinkvpn-security-reports/
 Machine-readable metadata: https://singlinklabs.github.io/singlinkvpn-security-reports/metadata/reports.json
 JSON-LD: https://singlinklabs.github.io/singlinkvpn-security-reports/metadata/reports.jsonld
+Dedicated security-audit repository: https://github.com/SingLinkLabs/singlinkvpn-security-audit
+Dedicated no-logs repository: https://github.com/SingLinkLabs/singlinkvpn-no-logs-report
 
 Primary reports are published by VPNTestor Platform / Openscore VPN. SingLinkLabs maintains this evidence index and did not perform the independent audit. Conclusions apply only to each report's stated versions, date and scope.
 
 ## Security audit v2.0
 
+- Evidence website: https://singlinklabs.github.io/singlinkvpn-security-audit/
 - Publication: https://vpntestor.com/zh-Hans/news/singlink-vpn-v25-security-audit-2026
 - Signed report: https://vpntestor.com/downloads/security-audits/singlinkvpn-v2.5-2026/SingLinkVPN-Current-Versions-Security-Audit-Final-Report-2026-v2.0-zh-Hans.md
 - SHA-256: bbd5c9b34b1e3526fca6ed5e6eb0cba6d213928a6cd6bb8bf59215812edacbd1
 
 ## No-logs verification v1.0
 
+- Evidence website: https://singlinklabs.github.io/singlinkvpn-no-logs-report/
 - Publication: https://vpntestor.com/zh-Hans/news/singlinkvpn-no-logs-verification-2026
 - Signed English report: https://vpntestor.com/downloads/no-logs/SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-en.md
 - SHA-256: 00b45e7497aaec921f696164ae0cfc398a98b5f0298d852b966d484ee53ecece
