@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this evidence catalog and the original VPNTestor report used in your work."
+title: "SingLinkVPN Security Audit and No-Logs Evidence Catalog"
+type: dataset
+authors:
+  - name: "SingLinkLabs"
+version: 1.0.0
+date-released: 2026-08-25
+repository-code: "https://github.com/SingLinkLabs/singlinkvpn-security-reports"
+url: "https://singlinklabs.github.io/singlinkvpn-security-reports/"
+keywords:
+  - SingLinkVPN
+  - VPN security audit
+  - no-logs verification
+  - Ed25519
+  - transparency
+license: MIT

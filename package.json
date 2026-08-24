@@ -1,0 +1,14 @@
+{
+  "name": "singlinkvpn-security-reports",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "test": "node --test test/*.test.mjs && node scripts/verify-catalog.mjs && node scripts/build-site.mjs && node scripts/audit-site.mjs",
+    "verify:remote": "node scripts/verify-remote-reports.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://singlinklabs.github.io/singlinkvpn-security-reports/metadata/reports.schema.json",
+  "title": "SingLinkVPN audit evidence catalog",
+  "type": "object",
+  "required": ["schemaVersion", "catalogId", "canonicalRepository", "maintainer", "auditedParty", "reports"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "catalogId": { "type": "string", "minLength": 1 },
+    "canonicalRepository": { "type": "string", "format": "uri" },
+    "maintainer": { "type": "string", "minLength": 1 },
+    "auditedParty": { "type": "string", "minLength": 1 },
+    "reports": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["id", "reportType", "title", "publisher", "auditTeam", "leadAuditor", "version", "reportDate", "officialPublicationPage", "result", "scope", "limitations", "signedOriginalLanguages", "signedManifest", "signature", "publicKey", "publicKeyFingerprint", "files"]
+      }
+    }
+  }
+}

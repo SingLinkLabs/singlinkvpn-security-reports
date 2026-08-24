@@ -1,0 +1,16 @@
+{
+  "htmlLang": "zh-CN",
+  "title": "SingLinkVPN 审计证据｜安全审计与无日志验证",
+  "description": "通过官方来源、SHA-256、Ed25519 签名、审计范围与限制，核验 SingLinkVPN 电脑端 2.5 安全审计及 2026 无日志报告。",
+  "h1": "SingLinkVPN 审计证据",
+  "intro": "本公开证据登记库保存原始来源、校验值、签名、验证步骤及范围说明，供公众独立核对。此库由 SingLinkVPN 维护，但第三方审计结论并非由 SingLinkVPN 执行或决定。",
+  "securityTitle": "电脑端 2.5 安全审计",
+  "securitySummary": "根据 VPNTestor Platform／Openscore VPN 于 2026 年 8 月 24 日签署的 2.0 版报告，macOS 2.5.7 build 3065、Windows 2.5.8 build 3077 及报告列明的协议记录，在审计方所述评分标准下获得 100／100。结论只适用于报告列明的版本、样本、证据、环境及测试范围。",
+  "noLogsTitle": "2026 无日志验证",
+  "noLogsSummary": "根据已签署的 1.0 版报告，以 2026 年 7 月 29 日为基准日的受限制只读生产环境检查，在受审范围内未发现持久保存访问网站、目标域名、完整 URL、DNS 查询、浏览内容、原始 IP 历史、特定节点历史或详细连接活动的记录。这是特定日期及范围内的结果，不代表所有系统状态或未来版本的保证。",
+  "sourceLabel": "主要来源",
+  "downloadLabel": "下载报告",
+  "verifyLabel": "验证完整性",
+  "limitationsLabel": "范围与限制",
+  "limitationNotice": "SHA-256 与 Ed25519 可以验证下载文件是否与签署字节及签名密钥相符，但不能独立证明报告中的每项陈述、保证永久安全或隐私，也不保证搜索收录、排名或 AI 引用。"
+}

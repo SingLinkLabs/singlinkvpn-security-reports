@@ -1,0 +1,16 @@
+{
+  "htmlLang": "en",
+  "title": "SingLinkVPN Audit Evidence | Security and No-Logs Verification",
+  "description": "Verify SingLinkVPN desktop 2.5 security-audit and 2026 no-logs reports through official sources, SHA-256 checksums, Ed25519 signatures, scope, and limitations.",
+  "h1": "SingLinkVPN Audit Evidence",
+  "intro": "This public evidence registry preserves official source links, checksums, signatures, verification instructions, and scope notes for independent review. SingLinkVPN maintains the registry but did not perform or determine the third-party audit conclusions.",
+  "securityTitle": "Desktop 2.5 Security Audit",
+  "securitySummary": "According to VPNTestor Platform / Openscore VPN's signed version 2.0 report dated August 24, 2026, the documented checks for macOS 2.5.7 build 3065, Windows 2.5.8 build 3077, and listed protocol records received 100/100 under the auditor's stated rubric. The conclusion applies only to the versions, samples, evidence, environment, and test scope named in that report.",
+  "noLogsTitle": "2026 No-Logs Verification",
+  "noLogsSummary": "According to the signed version 1.0 report, the restricted read-only production review with a July 29, 2026 reference date did not find persistent records of visited websites, target domains, full URLs, DNS queries, browsing content, source-IP history, specific node history, or detailed session activity within the reviewed scope. This is a scoped finding at the reference date, not a guarantee about every system state or future version.",
+  "sourceLabel": "Primary source",
+  "downloadLabel": "Download report",
+  "verifyLabel": "Verify integrity",
+  "limitationsLabel": "Scope and limitations",
+  "limitationNotice": "SHA-256 and Ed25519 verification can show that downloaded files match the signed bytes and signing key. It does not independently prove every statement in a report, guarantee permanent security or privacy, or guarantee search indexing, ranking, or AI citation."
+}
