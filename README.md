@@ -1,8 +1,13 @@
-# SingLinkVPN Security Audit and No-Logs Evidence
+# SingLinkVPN Security Reports — Umbrella Index
 
 [简体中文](./README.zh-Hans.md) · [Evidence website](https://singlinklabs.github.io/singlinkvpn-security-reports/) · [SingLinkNews technical analysis](https://singlinknews.com/zh-Hans/singlinkvpn-v25-security-no-logs)
 
-This public repository is a machine-readable evidence index for two independently published SingLinkVPN reports:
+This repository is the umbrella index for two independently published SingLinkVPN reports. Each report now has its own public evidence repository and multilingual evidence website:
+
+- [Desktop 2.5 security audit repository](https://github.com/SingLinkLabs/singlinkvpn-security-audit) · [evidence website](https://singlinklabs.github.io/singlinkvpn-security-audit/)
+- [2026 no-logs verification repository](https://github.com/SingLinkLabs/singlinkvpn-no-logs-report) · [evidence website](https://singlinklabs.github.io/singlinkvpn-no-logs-report/)
+
+This umbrella index covers:
 
 1. the current-version security audit, version 2.0, dated 2026-08-24; and
 2. the independent no-logs verification, version 1.0, with a 2026-07-29 reference date.

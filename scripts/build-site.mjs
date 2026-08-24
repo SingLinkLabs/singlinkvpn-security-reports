@@ -87,13 +87,13 @@ function page(locale, copy) {
       <h2>${escapeHtml(copy.securityTitle)}</h2>
       <p>${escapeHtml(copy.securitySummary)}</p>
       <p><code>SHA-256 ${security.files[0].sha256}</code></p>
-      <div class="links"><a href="${security.officialPublicationPage}">${escapeHtml(copy.sourceLabel)}</a><a class="secondary" href="${security.files[0].officialDownloadUrl}">${escapeHtml(copy.downloadLabel)}</a></div>
+      <div class="links"><a href="${security.officialPublicationPage}">${escapeHtml(copy.sourceLabel)}</a><a class="secondary" href="${security.files[0].officialDownloadUrl}">${escapeHtml(copy.downloadLabel)}</a><a class="secondary" href="https://singlinklabs.github.io/singlinkvpn-security-audit/">GitHub</a></div>
     </section>
     <section class="card">
       <h2>${escapeHtml(copy.noLogsTitle)}</h2>
       <p>${escapeHtml(copy.noLogsSummary)}</p>
       <p><code>SHA-256 ${localizedNoLogsFile.sha256}</code></p>
-      <div class="links"><a href="${noLogs.officialPublicationPage}">${escapeHtml(copy.sourceLabel)}</a><a class="secondary" href="${localizedNoLogsFile.officialDownloadUrl}">${escapeHtml(copy.downloadLabel)}</a></div>
+      <div class="links"><a href="${noLogs.officialPublicationPage}">${escapeHtml(copy.sourceLabel)}</a><a class="secondary" href="${localizedNoLogsFile.officialDownloadUrl}">${escapeHtml(copy.downloadLabel)}</a><a class="secondary" href="https://singlinklabs.github.io/singlinkvpn-no-logs-report/">GitHub</a></div>
     </section>
   </div>
   <section class="notice"><h2>${escapeHtml(copy.limitationsLabel)}</h2><p>${escapeHtml(copy.limitationNotice)}</p><div class="links"><a class="secondary" href="https://github.com/SingLinkLabs/singlinkvpn-security-reports/blob/main/docs/verification.md">${escapeHtml(copy.verifyLabel)}</a></div></section>
@@ -129,7 +129,7 @@ await writeFile(
 );
 await writeFile(
   path.join(output, 'llms.txt'),
-  `# SingLinkVPN Audit Evidence\n\nCanonical catalog: ${base}/\nRepository: https://github.com/SingLinkLabs/singlinkvpn-security-reports\nMachine-readable metadata: ${base}/metadata/reports.json\nJSON-LD: ${base}/metadata/reports.jsonld\n\nPrimary reports are published by VPNTestor Platform / Openscore VPN. SingLinkLabs maintains this evidence index and did not perform the independent audit. Conclusions apply only to each report's stated versions, date and scope.\n\n## Security audit v2.0\n- Source: ${security.officialPublicationPage}\n- Report: ${security.files[0].officialDownloadUrl}\n- SHA-256: ${security.files[0].sha256}\n\n## No-logs verification v1.0\n- Source: ${noLogs.officialPublicationPage}\n- English report: ${noLogs.files.find(({ language }) => language === 'en').officialDownloadUrl}\n- SHA-256: ${noLogs.files.find(({ language }) => language === 'en').sha256}\n`,
+  `# SingLinkVPN Security Reports — Umbrella Index\n\nCanonical catalog: ${base}/\nRepository: https://github.com/SingLinkLabs/singlinkvpn-security-reports\nDedicated security-audit repository: https://github.com/SingLinkLabs/singlinkvpn-security-audit\nDedicated no-logs repository: https://github.com/SingLinkLabs/singlinkvpn-no-logs-report\nMachine-readable metadata: ${base}/metadata/reports.json\nJSON-LD: ${base}/metadata/reports.jsonld\n\nPrimary reports are published by VPNTestor Platform / Openscore VPN. SingLinkLabs maintains this evidence index and did not perform the independent audit. Conclusions apply only to each report's stated versions, date and scope.\n\n## Security audit v2.0\n- Dedicated evidence website: https://singlinklabs.github.io/singlinkvpn-security-audit/\n- Source: ${security.officialPublicationPage}\n- Report: ${security.files[0].officialDownloadUrl}\n- SHA-256: ${security.files[0].sha256}\n\n## No-logs verification v1.0\n- Dedicated evidence website: https://singlinklabs.github.io/singlinkvpn-no-logs-report/\n- Source: ${noLogs.officialPublicationPage}\n- English report: ${noLogs.files.find(({ language }) => language === 'en').officialDownloadUrl}\n- SHA-256: ${noLogs.files.find(({ language }) => language === 'en').sha256}\n`,
   'utf8',
 );
 await writeFile(path.join(output, '.nojekyll'), '', 'utf8');
