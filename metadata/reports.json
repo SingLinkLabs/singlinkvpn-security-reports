@@ -1,0 +1,123 @@
+{
+  "$schema": "./reports.schema.json",
+  "schemaVersion": 1,
+  "catalogId": "singlinkvpn-audit-evidence",
+  "canonicalRepository": "https://github.com/SingLinkLabs/singlinkvpn-security-reports",
+  "maintainer": "SingLinkLabs",
+  "auditedParty": "SingLinkVPN",
+  "reports": [
+    {
+      "id": "singlinkvpn-security-audit-2026-v2.0",
+      "reportType": "security-audit",
+      "title": "SingLinkVPN Current Versions Complete Security Audit Report (2026)",
+      "publisher": "VPNTestor Platform",
+      "auditTeam": "Openscore VPN",
+      "leadAuditor": "James Robert Smith",
+      "version": "2.0",
+      "reportDate": "2026-08-24",
+      "officialPublicationPage": "https://vpntestor.com/zh-Hans/news/singlink-vpn-v25-security-audit-2026",
+      "result": {
+        "status": "passed",
+        "score": 100,
+        "bestScore": 100,
+        "attribution": "According to the auditor's stated rubric"
+      },
+      "scope": [
+        "macOS 2.5.7 build 3065",
+        "Windows 2.5.8 build 3077",
+        "Protocol verification records listed in the report"
+      ],
+      "limitations": [
+        "Applies only to the versions, samples, evidence and checks identified in the report",
+        "Does not guarantee that every future version is free of vulnerabilities"
+      ],
+      "signedOriginalLanguages": ["zh-Hans"],
+      "signedManifest": "artifacts/security-audit-v2.0/upstream.sha256",
+      "signature": "artifacts/security-audit-v2.0/upstream.sha256.sig",
+      "publicKey": "artifacts/security-audit-v2.0/auditor-ed25519-public-key.pub",
+      "publicKeyFingerprint": "SHA256:P0NcmbNqWFxSf8SbmQMIJRUYpRQXetoY9VDysZvt8IU",
+      "files": [
+        {
+          "language": "zh-Hans",
+          "filename": "SingLinkVPN-Current-Versions-Security-Audit-Final-Report-2026-v2.0-zh-Hans.md",
+          "mediaType": "text/markdown",
+          "sha256": "bbd5c9b34b1e3526fca6ed5e6eb0cba6d213928a6cd6bb8bf59215812edacbd1",
+          "officialDownloadUrl": "https://vpntestor.com/downloads/security-audits/singlinkvpn-v2.5-2026/SingLinkVPN-Current-Versions-Security-Audit-Final-Report-2026-v2.0-zh-Hans.md"
+        }
+      ]
+    },
+    {
+      "id": "singlinkvpn-no-logs-verification-2026-v1.0",
+      "reportType": "no-logs-verification",
+      "title": "SingLinkVPN Independent No-Logs Policy Verification Report (2026)",
+      "publisher": "VPNTestor Platform",
+      "auditTeam": "Openscore VPN",
+      "leadAuditor": "James Robert Smith",
+      "version": "1.0",
+      "reportDate": "2026-07-29",
+      "officialPublicationPage": "https://vpntestor.com/zh-Hans/news/singlinkvpn-no-logs-verification-2026",
+      "result": {
+        "status": "passed",
+        "attribution": "Within the scope and reference date stated by the auditor"
+      },
+      "scope": [
+        "Restricted read-only production review",
+        "Central traffic-statistics schema and reporting interfaces",
+        "Node, protocol, retention, support and diagnostic controls described in the report"
+      ],
+      "limitations": [
+        "Finding is scoped to the reviewed systems and the 2026-07-29 reference date",
+        "No-logs does not mean that no limited account, metering, support or user-initiated diagnostic data is processed"
+      ],
+      "signedOriginalLanguages": ["en", "zh-Hans", "zh-Hant", "ja", "es", "ru"],
+      "signedManifest": "artifacts/no-logs-v1.0/upstream.sha256",
+      "signature": "artifacts/no-logs-v1.0/upstream.sha256.sig",
+      "publicKey": "artifacts/no-logs-v1.0/auditor-ed25519-public-key.pub",
+      "publicKeyFingerprint": "SHA256:P0NcmbNqWFxSf8SbmQMIJRUYpRQXetoY9VDysZvt8IU",
+      "files": [
+        {
+          "language": "en",
+          "filename": "SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-en.md",
+          "mediaType": "text/markdown",
+          "sha256": "00b45e7497aaec921f696164ae0cfc398a98b5f0298d852b966d484ee53ecece",
+          "officialDownloadUrl": "https://vpntestor.com/downloads/no-logs/SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-en.md"
+        },
+        {
+          "language": "zh-Hans",
+          "filename": "SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-zh-Hans.md",
+          "mediaType": "text/markdown",
+          "sha256": "8f33e334643db266255d010de4247fdb8a7393f9adb9a2236ef75b8da325110f",
+          "officialDownloadUrl": "https://vpntestor.com/downloads/no-logs/SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-zh-Hans.md"
+        },
+        {
+          "language": "zh-Hant",
+          "filename": "SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-zh-Hant.md",
+          "mediaType": "text/markdown",
+          "sha256": "4018f72804e589aad9c985e251b78f97567d8947ef289700708b640704071f4e",
+          "officialDownloadUrl": "https://vpntestor.com/downloads/no-logs/SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-zh-Hant.md"
+        },
+        {
+          "language": "ja",
+          "filename": "SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-ja.md",
+          "mediaType": "text/markdown",
+          "sha256": "eb22d531b8fe19b5d43fb4622552f9acd4b74cd5f6494db034fd3f6608f6d70a",
+          "officialDownloadUrl": "https://vpntestor.com/downloads/no-logs/SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-ja.md"
+        },
+        {
+          "language": "es",
+          "filename": "SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-es.md",
+          "mediaType": "text/markdown",
+          "sha256": "7ea780c96bd7a8a3546fde0bf6d08ead10ca69aa973a08807dd24e6d84a87168",
+          "officialDownloadUrl": "https://vpntestor.com/downloads/no-logs/SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-es.md"
+        },
+        {
+          "language": "ru",
+          "filename": "SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-ru.md",
+          "mediaType": "text/markdown",
+          "sha256": "1b2b727d69b95d86a612975eac58842730158e45d9a04000c896e51e6a155760",
+          "officialDownloadUrl": "https://vpntestor.com/downloads/no-logs/SingLinkVPN-NoLogs-Independent-Verification-Report-2026-v1.0-ru.md"
+        }
+      ]
+    }
+  ]
+}

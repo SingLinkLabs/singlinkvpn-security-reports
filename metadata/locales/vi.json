@@ -1,0 +1,16 @@
+{
+  "htmlLang": "vi",
+  "title": "Bằng chứng kiểm toán SingLinkVPN | Bảo mật và xác minh không lưu nhật ký",
+  "description": "Xác minh báo cáo bảo mật SingLinkVPN máy tính 2.5 và báo cáo không lưu nhật ký 2026 bằng nguồn chính thức, SHA-256, chữ ký Ed25519, phạm vi và giới hạn.",
+  "h1": "Bằng chứng kiểm toán SingLinkVPN",
+  "intro": "Kho bằng chứng công khai này lưu nguồn gốc chính thức, mã kiểm tra, chữ ký, hướng dẫn xác minh và ghi chú phạm vi để công chúng kiểm tra độc lập. SingLinkVPN duy trì kho này nhưng không thực hiện hoặc quyết định kết luận của cuộc kiểm toán bên thứ ba.",
+  "securityTitle": "Kiểm toán bảo mật máy tính 2.5",
+  "securitySummary": "Theo báo cáo phiên bản 2.0 được VPNTestor Platform／Openscore VPN ký ngày 24 tháng 8 năm 2026, các kiểm tra được ghi nhận cho macOS 2.5.7 build 3065, Windows 2.5.8 build 3077 và các hồ sơ giao thức được liệt kê đạt 100／100 theo thang điểm mà bên kiểm toán công bố. Kết luận chỉ áp dụng cho phiên bản, mẫu, bằng chứng, môi trường và phạm vi thử nghiệm nêu trong báo cáo.",
+  "noLogsTitle": "Xác minh không lưu nhật ký năm 2026",
+  "noLogsSummary": "Theo báo cáo phiên bản 1.0 đã ký, cuộc kiểm tra môi trường vận hành ở chế độ chỉ đọc có giới hạn, với ngày tham chiếu 29 tháng 7 năm 2026, không tìm thấy trong phạm vi đã xem xét các bản ghi lưu giữ lâu dài về trang web đã truy cập, tên miền đích, URL đầy đủ, truy vấn DNS, nội dung duyệt web, lịch sử IP nguồn, lịch sử nút cụ thể hoặc hoạt động kết nối chi tiết. Đây là kết quả có giới hạn tại ngày tham chiếu, không phải bảo đảm cho mọi trạng thái hệ thống hay phiên bản tương lai.",
+  "sourceLabel": "Nguồn chính",
+  "downloadLabel": "Tải báo cáo",
+  "verifyLabel": "Xác minh tính toàn vẹn",
+  "limitationsLabel": "Phạm vi và giới hạn",
+  "limitationNotice": "SHA-256 và Ed25519 có thể xác nhận tệp tải xuống khớp với dữ liệu đã ký và khóa ký. Chúng không tự chứng minh mọi tuyên bố trong báo cáo, không bảo đảm an toàn hoặc quyền riêng tư vĩnh viễn, và không bảo đảm được lập chỉ mục, xếp hạng tìm kiếm hay được AI trích dẫn."
+}

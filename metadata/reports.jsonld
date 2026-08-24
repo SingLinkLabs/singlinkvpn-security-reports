@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://singlinklabs.github.io/singlinkvpn-security-reports/#dataset",
+  "name": "SingLinkVPN Security Audit and No-Logs Evidence Catalog",
+  "description": "Machine-readable provenance, scope, checksums, signatures and canonical sources for SingLinkVPN security-audit and no-logs reports.",
+  "url": "https://singlinklabs.github.io/singlinkvpn-security-reports/",
+  "creator": {
+    "@type": "Organization",
+    "name": "SingLinkLabs",
+    "url": "https://github.com/SingLinkLabs"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "SingLinkVPN",
+    "url": "https://singlinkvpn.com"
+  },
+  "license": "https://github.com/SingLinkLabs/singlinkvpn-security-reports/blob/main/RIGHTS.md",
+  "hasPart": [
+    {
+      "@type": "Report",
+      "name": "SingLinkVPN Current Versions Complete Security Audit Report (2026)",
+      "version": "2.0",
+      "datePublished": "2026-08-24",
+      "publisher": { "@type": "Organization", "name": "VPNTestor Platform / Openscore VPN" },
+      "author": { "@type": "Person", "name": "James Robert Smith" },
+      "sameAs": "https://vpntestor.com/zh-Hans/news/singlink-vpn-v25-security-audit-2026",
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://vpntestor.com/downloads/security-audits/singlinkvpn-v2.5-2026/SingLinkVPN-Current-Versions-Security-Audit-Final-Report-2026-v2.0-zh-Hans.md",
+        "encodingFormat": "text/markdown",
+        "identifier": { "@type": "PropertyValue", "propertyID": "sha256", "value": "bbd5c9b34b1e3526fca6ed5e6eb0cba6d213928a6cd6bb8bf59215812edacbd1" }
+      }
+    },
+    {
+      "@type": "Report",
+      "name": "SingLinkVPN Independent No-Logs Policy Verification Report (2026)",
+      "version": "1.0",
+      "datePublished": "2026-07-29",
+      "publisher": { "@type": "Organization", "name": "VPNTestor Platform / Openscore VPN" },
+      "author": { "@type": "Person", "name": "James Robert Smith" },
+      "sameAs": "https://vpntestor.com/zh-Hans/news/singlinkvpn-no-logs-verification-2026"
+    }
+  ]
+}
